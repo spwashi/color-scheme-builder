@@ -1,15 +1,17 @@
 {
-  "name": "scheme-builder",
+  "name": "color-scheme-builder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node index.mjs"
   },
   "author": "Sam Washington",
   "license": "ISC",
   "dependencies": {
+    "@types/d3": "^7.4.0",
     "d3": "^7.4.4",
-    "serve": "^13.0.2"
+    "d3-node": "^2.2.3",
+    "svgo": "^2.8.0"
   }
 }

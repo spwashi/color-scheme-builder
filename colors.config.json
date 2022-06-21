@@ -1,0 +1,26 @@
+{
+  "dark": {
+    "fill": "#38353b"
+  },
+  "accent_main": {
+    "fill": "#842c2a"
+  },
+  "accent_dark": {
+    "fill": "#1e4361"
+  },
+  "accent_light": {
+    "fill": "#edd9a6"
+  },
+  "light": {
+    "fill": "#e2dddb"
+  },
+  "neutral_average": {
+    "fill": "#aebac3"
+  },
+  "neutral_midtone": {
+    "fill": "#8f9fab"
+  },
+  "neutral_highlight": {
+    "fill": "#c8d6e6"
+  }
+}
