@@ -2,9 +2,9 @@
   "name": "color-scheme-builder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.mjs",
+  "main": "src/index.mjs",
   "scripts": {
-    "build": "node index.mjs"
+    "build": "node src/index.mjs -o ../ -c colors.config.json"
   },
   "author": "Sam Washington",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "@types/d3": "^7.4.0",
     "d3": "^7.4.4",
     "d3-node": "^2.2.3",
+    "minimist": "^1.2.6",
     "svgo": "^2.8.0"
   }
 }
