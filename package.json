@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.mjs",
   "scripts": {
-    "build": "node src/index.mjs -o ../ -c colors.config.json"
+    "build-example": "node src/index.mjs -o ./example/out -c example/colors.config.json"
   },
   "author": "Sam Washington",
   "license": "ISC",
